@@ -12,7 +12,7 @@ backups:
     throttleInterval: 10000
   common:
     numberOfBackups: 50
-basicAuthMode: false
+basicAuthMode: true
 basicAuthUser:
   password: password
   username: user
@@ -24,9 +24,6 @@ claude:
 dataRoot: ./data
 deepl:
   formality: default
-defaultUsers:
-  admin:
-    password: '062161'
 disableCsrfProtection: false
 dnsPreferIPv6: false
 enableCorsProxy: false
@@ -35,7 +32,7 @@ enableDownloadableTokenizers: true
 enableForwardedWhitelist: true
 enableServerPlugins: false
 enableServerPluginsAutoUpdate: true
-enableUserAccounts: true
+enableUserAccounts: false
 extensions:
   autoUpdate: true
   enabled: true
