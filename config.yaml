@@ -1,0 +1,104 @@
+allowKeysExposure: false
+autheliaAuth: false
+autorun: true
+autorunHostname: auto
+autorunPortOverride: -1
+avoidLocalhost: false
+backups:
+  chat:
+    checkIntegrity: true
+    enabled: true
+    maxTotalBackups: -1
+    throttleInterval: 10000
+  common:
+    numberOfBackups: 50
+basicAuthMode: false
+basicAuthUser:
+  password: password
+  username: user
+claude:
+  cachingAtDepth: -1
+  enableSystemPromptCache: false
+dataRoot: ./data
+deepl:
+  formality: default
+disableCsrfProtection: false
+dnsPreferIPv6: false
+enableCorsProxy: false
+enableDiscreetLogin: false
+enableDownloadableTokenizers: true
+enableForwardedWhitelist: true
+enableServerPlugins: false
+enableServerPluginsAutoUpdate: true
+enableUserAccounts: false
+extensions:
+  autoUpdate: true
+  enabled: true
+  models:
+    autoDownload: true
+    captioning: Xenova/vit-gpt2-image-captioning
+    classification: Cohee/distilbert-base-uncased-go-emotions-onnx
+    embedding: Cohee/jina-embeddings-v2-base-en
+    speechToText: Xenova/whisper-small
+    textToSpeech: Xenova/speecht5_tts
+listen: false
+listenAddress:
+  ipv4: 0.0.0.0
+  ipv6: '[::]'
+logging:
+  enableAccessLog: true
+  minLogLevel: 0
+mistral:
+  enablePrefix: false
+ollama:
+  batchSize: -1
+  keepAlive: -1
+openai:
+  captionSystemPrompt: ''
+  randomizeUserId: false
+perUserBasicAuth: false
+performance:
+  lazyLoadCharacters: false
+  memoryCacheCapacity: 100mb
+  useDiskCache: true
+port: 8000
+promptPlaceholder: '[Start a new chat]'
+protocol:
+  ipv4: true
+  ipv6: false
+rateLimiting:
+  preferRealIpHeader: false
+requestOverrides: []
+requestProxy:
+  bypass:
+  - localhost
+  - 127.0.0.1
+  enabled: false
+  url: socks5://username:password@example.com:1080
+securityOverride: false
+sessionTimeout: -1
+skipContentCheck: false
+ssl:
+  certPath: ./certs/cert.pem
+  enabled: false
+  keyPath: ./certs/privkey.pem
+thumbnails:
+  dimensions:
+    avatar:
+    - 96
+    - 144
+    bg:
+    - 160
+    - 90
+  enabled: true
+  format: jpg
+  quality: 95
+whitelist: []
+whitelistDockerHosts: true
+whitelistImportDomains:
+- localhost
+- cdn.discordapp.com
+- files.catbox.moe
+- raw.githubusercontent.com
+- char-archive.evulid.cc
+whitelistMode: false
