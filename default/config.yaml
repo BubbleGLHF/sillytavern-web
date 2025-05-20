@@ -12,10 +12,12 @@ backups:
     throttleInterval: 10000
   common:
     numberOfBackups: 50
-basicAuthMode: false
+basicAuthMode: true
 basicAuthUser:
   password: password
   username: user
+basicAuthUsers:
+  admin: '062161'
 claude:
   cachingAtDepth: -1
   enableSystemPromptCache: false
