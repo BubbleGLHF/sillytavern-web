@@ -12,12 +12,10 @@ backups:
     throttleInterval: 10000
   common:
     numberOfBackups: 50
-basicAuthMode: true
+basicAuthMode: false
 basicAuthUser:
   password: password
   username: user
-basicAuthUsers:
-  admin: '062161'
 claude:
   cachingAtDepth: -1
   enableSystemPromptCache: false
@@ -32,7 +30,7 @@ enableDownloadableTokenizers: true
 enableForwardedWhitelist: true
 enableServerPlugins: false
 enableServerPluginsAutoUpdate: true
-enableUserAccounts: false
+enableUserAccounts: true
 extensions:
   autoUpdate: true
   enabled: true
