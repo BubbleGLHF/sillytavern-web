@@ -24,6 +24,9 @@ claude:
 dataRoot: ./data
 deepl:
   formality: default
+defaultUsers:
+  admin:
+    password: '062161'
 disableCsrfProtection: false
 dnsPreferIPv6: false
 enableCorsProxy: false
