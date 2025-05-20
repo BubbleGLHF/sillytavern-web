@@ -93,7 +93,7 @@ thumbnails:
   enabled: true
   format: jpg
   quality: 95
-whitelist: false
+whitelist: []
 whitelistDockerHosts: true
 whitelistImportDomains:
 - localhost
@@ -101,4 +101,4 @@ whitelistImportDomains:
 - files.catbox.moe
 - raw.githubusercontent.com
 - char-archive.evulid.cc
-whitelistMode: true
+whitelistMode: false
